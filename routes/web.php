@@ -188,6 +188,14 @@ Route::get('post/create', 'PostController@create');
 
 Route::post('post', 'PostController@store');
 
+Route::get('testViewHello',function(){
+    return view('hello');
+});
+
+Route::get('testViewHome',function(){
+    return view('home');
+});
+
 
 
 

@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //视图间共享数据
+        view()->share('sitename', 'Laravelcademy');
     }
 
     /**
